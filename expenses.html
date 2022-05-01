@@ -1,0 +1,25 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Expense App</title>
+</head>
+<body>
+<form id="MyForm">
+<label>Choose Expenses</label>
+<input type="text" id="txtexpense">
+<label>Choose Description</label>
+<input type="text" id="txtdesc">
+<label>Choose Category</label>
+<select id="optcategory">
+    <option value="movie">movie</option>
+    <option value="fuel">fuel</option>
+    <option value="grocessory">daily purchase</option>
+    <option value="extra">extra expense</option>
+  </select>
+  <input type="button" id="btnsubmit" value="Submit">
+  <ul id="listofexpense">List of Expense</ul>
+</form>
+</body>
+<script src="expense.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+</html>
